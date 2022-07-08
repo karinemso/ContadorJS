@@ -1,0 +1,60 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: purple;
+}
+
+.titulo{
+   font-family: 'Cantarell', sans-serif;
+   text-align: center;
+   color: white;
+   column-gap: 10px;
+
+}
+
+.contador {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: 'Cantarell', sans-serif;
+}
+
+.btn {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+
+}
+
+
+button {
+	background: black;
+	color: white;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: none;
+}
+
+button:hover {
+  background-color: white;
+  color: purple;
+  cursor: pointer;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+}
