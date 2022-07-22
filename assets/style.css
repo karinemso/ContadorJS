@@ -57,4 +57,16 @@ main {
 	justify-content: center;
 	flex-direction: column;
 	gap: 20px;
+	font-family: 'Cantarell', sans-serif;
+	color: white;
+}
+
+.message, .message2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.messages {
+	margin-top: 20px;
+
 }
